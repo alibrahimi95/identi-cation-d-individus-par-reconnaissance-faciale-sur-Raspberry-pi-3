@@ -1,0 +1,9 @@
+Le dataset contient des images des personnes qu'on veut identifier. Nous avons enlever les images dans ce lien github pour respecter la protection des données personnelle.
+
+Exécuter data_aug.py pour augmenter les données de dataset
+puis encode_faces.py pour sauvegarder les images en binaire dans un fichier pickle
+puis pi_face_recognition.py qui permet d'ouvrir la vidéo et de capturer les visage (à partir de flux vidéo), ces visage seront comparer a des images de la base de données.
+
+ml.py permet d'envoyer par mail la photo de l'intrus
+
+
