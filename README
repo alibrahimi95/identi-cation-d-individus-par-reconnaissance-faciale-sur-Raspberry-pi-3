@@ -1,4 +1,4 @@
-Le dataset contient des images des personnes qu'on veut identifier. Nous avons enlever les images dans ce lien github pour respecter la protection des données personnelle.
+Le dataset doit contenir les images des personnes qu'on veut identifier. Dans ce lien github nous avons enlevé les images pour respecter la protection des données personnelle.
 
 Exécuter data_aug.py pour augmenter les données de dataset
 puis encode_faces.py pour sauvegarder les images en binaire dans un fichier pickle
